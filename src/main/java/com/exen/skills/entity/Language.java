@@ -1,5 +1,6 @@
 package com.exen.skills.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @UserDefinedType("languages")
 @Table("languages")
+@AllArgsConstructor
 public class Language {
 
     @Id
